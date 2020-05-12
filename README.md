@@ -34,9 +34,9 @@ Artificial Intelligence
 
 **Layers**: ResNet50 model
 
-**Loss**:?
+**Loss**:CategoricalCrossentropy
 
-**Optimizer**: ?
+**Optimizer**: Adam (learning_rate=0.001, beta1= 0.9, beta2=0.009, epsilon =10-8)
 
 **Dataset**: signs
 
