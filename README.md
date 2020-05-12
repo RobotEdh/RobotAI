@@ -34,9 +34,9 @@ Artificial Intelligence
 
 **Layers**: ResNet50 model
 
-**Loss**:?
+**Loss**:CategoricalCrossentropy
 
-**Optimizer**: ?
+**Optimizer**: Adam (learning_rate=0.001, beta1= 0.9, beta2=0.009, epsilon =10-8)
 
 **Dataset**: signs
 
@@ -53,9 +53,9 @@ Artificial Intelligence
 
 **Optimizer**: ?
 
-**Dataset**: ?
+**Dataset**: 'person', 'bicycle', 'car', 'motorbike', 'aeroplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'sofa', 'pottedplant', 'bed', 'diningtable', 'toilet', 'tvmonitor', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'
 
-###### - input imgage (1, 416, 416, 3)
+###### - input image (1, 416, 416, 3)
 ###### - output model [(1, 13, 13, 255), (1, 26, 26, 255), (1, 52, 52, 255)]
 ###### [255, 255, 255] = ( 80 classes + pc,bx,by,bh,bw ) * 3 anchor boxes
 
